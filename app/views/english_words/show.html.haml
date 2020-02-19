@@ -1,0 +1,7 @@
+%p#notice= notice
+%p
+  %strong Key word:
+  = @english_word.key_word
+= link_to 'Edit', edit_english_word_path(@english_word)
+|
+= link_to 'Back', english_words_path
